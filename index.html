@@ -24,16 +24,16 @@
                 <li class="nav-item text-end">
                   <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Los Oradores</a>
+                <li class="nav-item text-light">
+                  <a class="nav-link" href="#oradores">Los Oradores</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">El lugar y la fecha</a>
+                <li class="nav-item text-light">
+                  <a class="nav-link" href="#lugar">El lugar y la fecha</a>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item text-light ">
                   <a class="nav-link" href="#">Conviértete en Orador</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item text-light">
                   <a class="nav-link" href="#">Comprar Tickets</a>
                 </li>
               </ul>
@@ -42,20 +42,22 @@
       </nav>
     </header>
 
-    <div class="card-img-overlay position-relative">
-      <img src="img/hawaii.jpg" class="card-img opacity-50 img-fluid ">
-      <div class="position-absolute bottom-0 end-0 text-light p-4">
-        <h2 class="card-title text-end">Conf Bs As</h2>
-        <p class="card-text h3 text-end">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-        <div class="buttons text-end">
-          <button type="button" class="btn btn-outline-light btn-lg">Quiero ser orador</button>
-          <button type="button" class="btn btn-success btn-lg"><a id="tickets">Comprar tickets</a></button>
-        </div>
+    <div class="card-img-overlay position-relative bg-dark">
+      <img src="img/hawaii.jpg" class="card-img opacity-50 img-fluid">
+        <div class="position-absolute top-50 start-50 translate-middle">
+          <div class="card-img-overlay text-end" style="width: 45rem">            
+            <h2 class="card-title text-light">Conf Bs As</h2>
+            <p class="card-text text-light h3">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            <div class="buttons">
+              <button type="button" class="btn btn-outline-light btn-lg">Quiero ser orador</button>
+              <button type="button" class="btn btn-success btn-lg"><a id="tickets">Comprar tickets</a></button>
+            </div>
+          </div> 
       </div>
     </div>
 
     <div class="text-center mb-3">
-      <h3>Conoce a los</h3>
+      <h3 id="oradores">Conoce a los</h3>
       <h1>ORADORES</h1>
     </div>
     
@@ -131,7 +133,7 @@
         </div>
         <div class="col-md-6 text-light" style="background-color: #28292D;">
           <div class="card-body">
-            <h5 class="card-title h1">Bs As - Octubre</h5>
+            <h5 class="card-title h1" id="lugar">Bs As - Octubre</h5>
             <p class="card-text fs-5 text-left">Buenos Aires es la localidad y la provincia más grande del estado Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área más hurbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciuda(aproximadamente 600 km² de superficie).</p>
             <button type="button" class="btn btn-outline-light">Conocé Más</button>            
           </div>
@@ -140,9 +142,9 @@
     </div>
     <div>
       <div class="text-center mb-3">
-        <h3>Conoce a los</h3>
+        <h3>CONVIÉRTETE EN UN</h3>
         <h1>ORADORES</h1>
-        <h4>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar! </h4>
+        <h4>Anótate como orador para dar una charla <u class="dotted" style="text-decoration: underline dotted;">ignite</u>. Cuéntanos de qué quieres hablar! </h4>
       </div>
       <div>
         <div class="d-flex justify-content-center gap-3">
@@ -165,28 +167,28 @@
         </div>  
       </div>
     </div>  
-    <footer class="bg-dark p-4">
-      <ul class="nav justify-content-center h5">        
+    <footer class="bg-dark p-4 text-light">
+      <ul class="nav justify-content-center h5 background-image: linear-gradient(to right, #1c3846, #1d5270);">        
         <li class="nav-item">
-          <a class="nav-link" href="#">Preguntas Frecuentes</a>
+          <a class="nav-link text-light" href="#">Preguntas Frecuentes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contáctenos</a>
+          <a class="nav-link text-light" href="#">Contáctenos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Prensa</a>
+          <a class="nav-link text-light">Prensa</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Conferencias</a>
+          <a class="nav-link text-light" href="#">Conferencias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Términos y Condiciones</a>
+          <a class="nav-link text-light" href="#">Términos y Condiciones</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Privacidad</a>
+          <a class="nav-link text-light" href="#">Privacidad</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Estudiantes</a>
+          <a class="nav-link text-light" href="#">Estudiantes</a>
         </li>
       </ul>
     </footer>    
